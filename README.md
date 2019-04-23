@@ -15,7 +15,7 @@ This project was done by emulating a browser's submitting process. I analyzed th
 
 It's fairly simple. All code is inside the single file [CanvasAutoSubmit.py](CanvasAutoSubmit.py). Just make sure you have the *[requests](https://pypi.org/project/requests/)* and *[bs4](https://pypi.org/project/beautifulsoup4/)* installed. Then you need to config [CanvasAutoSubmit.ini](CanvasAutoSubmit.ini).
 
-### An example of CanvasAutoSubmit.ini
+### An example of *CanvasAutoSubmit.ini*
 
 ```
 {
@@ -36,13 +36,13 @@ It's fairly simple. All code is inside the single file [CanvasAutoSubmit.py](Can
 "SubmitNRecordsOnly": 3       # for testing purpose, try 3 to only upload records for 3 students. Otherwise, -1 to upload all
 ```
 
-### An example of "ScoreAndCommentFile"
+### An example of *ScoreAndCommentFile*
 
 Each line is a student record.
 
 The format: {student_name}\t{canvas_id}\t{total_score}\t{comment}
 
-The comments must be encoded by URL encoding.
+The comments must be encoded by URL encoding. A handy tool to generate this file is provided *[HERE](tools/gather_to_upload.py)*. It takes the Excel table file which is downloaded from the Canvas system as input. Change it on your need.
 
 ```
 CHAN  X X	60893	4.5	Nice%20work.%0A-----------------------------------%0AUse%20of%20an%20image%3A%201.0%0AUse%20of%20a%20custom%20font%3A%201.0%0AUse%20of%20loops%3A%201.0%0ACreativity%3A%201.5%0A-----------------------------------%0ATotal%3A%204.5
