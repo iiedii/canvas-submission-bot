@@ -1,13 +1,13 @@
 # Canvas Student Score Submission Bot
 
+[![Python version](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/download/releases/2.7/)
+![Maintenance](https://img.shields.io/badge/maintained%3F-no-red.svg)
+
 My college is using *[Canvas system](https://www.canvaslms.com/)* to manage student records. As a teaching assistant, it was a headache for me to upload scores with comments for 300+ students in my course. Canvas did provide a method to batch upload scores by an Excel table, however it doesn't include comments. In the end, I developed this submission bot to automate the process of uploading both the score and comments for each student. It was welcomed by lecturers and other teaching assistants.
 
 ## Important Notes
 
 This project was done by emulating a browser's submitting process. I analyzed the communication between the browser and server when a user was submitting scores. Due to the nature of this hack, the code is subject to the version of Canvas system used by my college. It may not work on the current version. If it doesn't work, usually the problem lies in the update of the user authentication process. You might want to look into that part if you are trying to apply this code directly.
-
-[![Python version](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/download/releases/2.7/)
-![Maintenance](https://img.shields.io/badge/maintained%3F-no-red.svg)
 
 -------------------------------------------------
 
