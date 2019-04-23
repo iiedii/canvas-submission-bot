@@ -36,7 +36,7 @@ It's fairly simple. All code is inside the single file [CanvasAutoSubmit.py](Can
 "SubmitNRecordsOnly": 3       # for testing purpose, try 3 to only upload records for 3 students. Otherwise, -1 to upload all
 ```
 
-### An example of ScoreAndCommentFile
+### An example of "ScoreAndCommentFile"
 
 Each line is a student record.
 
