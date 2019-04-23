@@ -42,7 +42,7 @@ Each line is a student record.
 
 The format: {student_name}\t{canvas_id}\t{total_score}\t{comment}
 
-The comments must be encoded by URL encoding. A handy tool to generate this file is provided **[HERE](tools/gather_to_upload.py)**. It takes the Excel table file that can be downloaded from the Canvas system as input. This tool is for reference only. Change it on your need.
+The comments must be encoded by URL encoding.
 
 ```
 CHAN  X X	60893	4.5	Nice%20work.%0A-----------------------------------%0AUse%20of%20an%20image%3A%201.0%0AUse%20of%20a%20custom%20font%3A%201.0%0AUse%20of%20loops%3A%201.0%0ACreativity%3A%201.5%0A-----------------------------------%0ATotal%3A%204.5
@@ -51,6 +51,8 @@ FU  X	59101	4.5	Nice%20art%20work.%0A-----------------------------------%0AUse%2
 ITTIX  X	45955	0.0	No%20submission.%0A-----------------------------------%0A-----------------------------------%0ATotal%3A%200.0
 
 ```
+
+A handy tool to generate this file is provided **[HERE](tools/gather_to_upload.py)**. It takes the Excel table file that can be downloaded from the Canvas system as input. This tool is for reference only. Change it on your need.
 
 -------------------------------------------------
 
